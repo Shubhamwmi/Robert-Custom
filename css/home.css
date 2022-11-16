@@ -1,0 +1,120 @@
+#logostructure h3{
+    font-weight: 500;
+}
+#whyUs>.background>p{
+    font-size: 120px;
+    line-height: 135px;
+    z-index: -1;
+    color: rgba(236, 236, 236, 0.66);
+    font-weight: 700;
+}
+#whyUs>.content>h1{
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+.content{
+    z-index: 1;
+}
+#whyUs>.content>h6{
+    color: var(--secondryColor);
+    font-weight: 500;
+}
+.logoimage{
+    height: 240px;
+    width: 316px;
+    object-fit: cover;
+}
+.column-image{
+    height: 600px;
+    width: 650px;
+    overflow: hidden;
+    object-fit: cover;
+}
+#future>div,#history>div{
+    flex: 0 50%;
+}
+.aboutFuture{
+    padding: 100px 50px;
+}
+#forward>.aboutFuture>h4{
+    color: var(--secondryColor);
+    font-weight: 500;
+}
+#process{
+    background-color: var(--lightbg);
+    padding: 50px 100px;
+}
+#process>.processHeading>h6{
+    font-weight: 400;
+    color: var(--secondryColor);
+}
+#process ul{
+    gap: 30px;
+}
+#process ul li:first-child{
+    list-style: none;
+}
+.threelinebox{
+    gap: 30px;
+}
+.threelinebox>div{
+    height: 350px;
+    width: 300px;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#process hr{
+    width: 45px;
+    border: 1px solid var(--secondryColor);
+    color: var(--secondryColor);
+}
+#fourelement h6{
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: var(--secondryColor);
+}
+#fourelement h2{
+    font-weight: 400;
+}
+.fourinlinebox{
+    gap: 35px;
+}
+.fourinlinebox>div{
+    width: 250px;
+}
+.analysis i{
+    color: var(--secondryColor);
+}
+.iconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 50px;
+    border: 2px solid var(--secondryColor);
+}
+.strategy .iconbox{
+    border-color: var(--black);
+}
+.execution .iconbox{
+    border-color:var(--hrDark);
+}
+.clocksupport .iconbox{
+    border-color:var(--lightborder);
+}
+.fourinlinebox i{
+    font-size: 65px;
+}
+#fourelement hr{
+    width: 150px;
+    border: 1px solid var(--hrDark);
+    color: var(--hrDark);
+}
+#experience h6{
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: var(--lightborder);
+}
