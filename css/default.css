@@ -17,7 +17,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-section{
+section,footer{
     max-width: 1640px;
     margin: 0 auto;
 }
@@ -33,12 +33,16 @@ h1{
 }
 h2{
     font-size: 40px;
+    font-weight: 400;
 }
 h3{
     font-size: 23px;
 }
 h4{
     font-size: 16px;
+}
+h5{
+    font-size: 18px;
 }
 h6{
     font-size: 13px;
@@ -70,6 +74,9 @@ ul{
 .mx-auto{
     margin: 0 auto;
 }
+.mt-5p{
+    margin-top: 5px;
+}
 .mt-15p{
     margin-top: 15px;
 }
@@ -79,11 +86,20 @@ ul{
 .mt-50p{
     margin-top: 50px;
 }
+.mt-65p{
+    margin-top: 65px;
+}
+.p-50p{
+    padding: 50px;
+}
 .d-flex{
     display: flex;
 }
 .justify-content-center{
     justify-content: center;
+}
+.justify-content-end{
+    justify-content:flex-end;
 }
 .align-items-center{
     align-items: center;
