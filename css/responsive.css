@@ -1,0 +1,108 @@
+@media (min-device-width: 800px) and (max-device-width: 1280px){
+        h2{
+            font-size: 35px;
+        }
+        #logostructure{
+            /* background-color: red; */
+            height: 100%;
+            padding: 50px;
+        }
+        #logostructure h3,#logostructure h4,#whyUs h1,#Selling h2,#Selling h4,#Selling p,#history h2,#history p,#experience h2{
+            text-align: center;
+        }
+        #future{
+            flex-direction: column;
+        }
+        #future h2,#future h4,#future p,#long-story h2,#long-story p,#long-story h5,.regular-description p,.jack>h6{
+            text-align: center;
+        }
+        .column-image{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0);
+            -webkit-transform: translate(-50%,0);
+            -moz-transform: translate(-50%,0);
+            -ms-transform: translate(-50%,0);
+            -o-transform: translate(-50%,0);
+        }
+        .futre,#Selling>.aboutFuture,#process,#experience,#partners,.fiveinlineicon,.whohire,#long-story,#services {
+            padding: 50px;
+        }
+        .fiveinlineicon{
+            justify-content: center;
+        }
+        .threelinebox>div{
+            padding: 25px;
+        }
+        #history p,.story{
+            margin-top: 15px;
+        }
+        #fourelement .iconbox{
+            height: 120px;
+        }
+        .threeinlinebox{
+            justify-content: center;
+        }
+        .clientdiscusstion{
+            height: 600px;
+        }
+        .threeinlinebox>div{
+            width: 170px;
+            height: 350px;
+            padding: 20px;
+        }
+        .expertise p{
+            font-size: 13px;
+        }
+        #partners .image{
+            height: 150px;
+            width: 150px;
+            margin: 5px;
+        }
+        #partners img{
+            height: 150px;
+            width: 150px;
+        }
+        .image h5{
+            font-size: 12px;
+        }
+        .fiveinlineicon div{
+            width: 120px;
+        }
+        #hires i{
+            font-size: 40px;
+        }
+        #hires h5{
+            font-size: 12px;
+        }
+        #hires p{
+            font-size: 12px;
+            padding: 0;
+        }
+        #long-story{
+            flex-direction: column;
+        }
+        #long-story>.left{
+            float: none;
+            display: flex;
+            justify-content: center;
+        }
+        #long-story>.right{
+            padding: 0;
+        }
+        .map>div,.map img{
+            width: 750px;
+        }
+        .giveUp h2{
+            font-size: 25px;
+        }
+        .double-quote i{
+            font-size: 80px;
+        }
+        .icon-container{
+            display: block;
+        }
+        .icon-box{
+            margin-top: 30px;
+        }
+  }

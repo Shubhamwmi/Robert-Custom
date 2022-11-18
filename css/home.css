@@ -1,3 +1,4 @@
+
 #logostructure h3{
     font-weight: 500;
 }
@@ -274,4 +275,8 @@ footer .socials{
     gap: 12px;
     transform: translate(-50%, 0px);
     bottom: 5px;
+    -webkit-transform: translate(-50%, 0px);
+    -moz-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    -o-transform: translate(-50%, 0px);
 }
