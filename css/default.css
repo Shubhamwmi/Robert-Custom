@@ -55,6 +55,11 @@ ul{
     font-size: 14px;
     color: var(--light);
 }
+.container,.container-md,.container-lg,.container-xl,.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .strong{
     font-weight: 700;
 }
@@ -69,6 +74,15 @@ ul{
 }
 .d-block{
     display: block;
+}
+.text-center{
+    text-align: center;
+}
+.pt100{
+    padding: 100px 0;
+}
+.pt50{
+    padding: 50px 0;
 }
 .mx-auto{
     margin: 0 auto;
@@ -91,8 +105,17 @@ ul{
 .p-50p{
     padding: 50px;
 }
+.p-25p{
+    padding: 25px;
+}
+.pl-20p{
+    padding: 20px;
+}
 .d-flex{
     display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 .justify-content-center{
     justify-content: center;
@@ -120,4 +143,37 @@ ul{
 }
 .w-100{
     width: 100%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+   }
+    
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .container,.container-md {
+        max-width: 720px;
+   }
+   
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .container,.container-md,.container-lg{
+        max-width: 960px;
+   }
+   
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .container,.container-md,.container-lg,.container-xl {
+        max-width: 1140px;
+   }
 }

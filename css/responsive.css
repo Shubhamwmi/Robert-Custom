@@ -1,6 +1,12 @@
-@media (min-device-width: 800px) and (max-device-width: 1280px){
+/* @media (min-device-width: 800px) and (max-device-width: 1280px){
+     */
+     @media(max-width:992px){
         h2{
             font-size: 35px;
+            text-align: center;
+        }
+        p,h4,h5,h6{
+            text-align: center;
         }
         #logostructure{
             /* background-color: red; */
@@ -10,13 +16,13 @@
         #logostructure h3,#logostructure h4,#whyUs h1,#Selling h2,#Selling h4,#Selling p,#history h2,#history p,#experience h2{
             text-align: center;
         }
-        #future{
+        /* #future{
             flex-direction: column;
         }
         #future h2,#future h4,#future p,#long-story h2,#long-story p,#long-story h5,.regular-description p,.jack>h6{
             text-align: center;
-        }
-        .column-image{
+        } */
+        /* .column-image{
             position: absolute;
             left: 50%;
             transform: translate(-50%,0);
@@ -24,13 +30,10 @@
             -moz-transform: translate(-50%,0);
             -ms-transform: translate(-50%,0);
             -o-transform: translate(-50%,0);
-        }
-        .futre,#Selling>.aboutFuture,#process,#experience,#partners,.fiveinlineicon,.whohire,#long-story,#services {
+        } */
+        /* .futre,#Selling>.aboutFuture,#process,#experience,#partners,.fiveinlineicon,.whohire,#long-story,#services {
             padding: 50px;
-        }
-        .fiveinlineicon{
-            justify-content: center;
-        }
+        } */
         .threelinebox>div{
             padding: 25px;
         }
@@ -43,12 +46,12 @@
         .threeinlinebox{
             justify-content: center;
         }
-        .clientdiscusstion{
+        /* .clientdiscusstion{
             height: 600px;
-        }
+        } */
         .threeinlinebox>div{
             width: 170px;
-            height: 350px;
+            height: auto;
             padding: 20px;
         }
         .expertise p{
@@ -67,7 +70,7 @@
             font-size: 12px;
         }
         .fiveinlineicon div{
-            width: 120px;
+            flex: 0 49%;
         }
         #hires i{
             font-size: 40px;
@@ -79,8 +82,11 @@
             font-size: 12px;
             padding: 0;
         }
-        #long-story{
+        #long-story .container{
             flex-direction: column;
+        }
+        #services h5,#services p{
+            text-align: left;
         }
         #long-story>.left{
             float: none;
@@ -90,11 +96,11 @@
         #long-story>.right{
             padding: 0;
         }
-        .map>div,.map img{
-            width: 750px;
+        #future p{
+            margin-bottom: 25px;
         }
         .giveUp h2{
-            font-size: 25px;
+            font-size: 20px;
         }
         .double-quote i{
             font-size: 80px;
@@ -105,4 +111,106 @@
         .icon-box{
             margin-top: 30px;
         }
+        .threelinetext>div,.icon-container>div,.contactpage>div{
+            flex: 0 48%;
+        }
+        
+  }
+
+  @media(max-width:768px){
+    h1{
+        font-size: 50px;
+    }
+    #logostructure,#whyUs{
+        height: 60vh !important;
+    }
+    .firstlineicons{
+        margin-top: 15px;
+    }
+    .threelinetext>div,.icon-container>div,.contactpage>div{
+        flex: 0 100%;
+    }
+    .flex-direction-column{
+        flex-direction: column;
+    }
+    #future>div, #history>div, .description>div, #survival>div, #timing>div, section#forward>div, section#Selling>div{
+        flex: 0 100%;
+    }
+    #future>div,#history>div,.description>div,#survival>div,#timing>div,section#forward>div,section#Selling>div{
+        flex: 0 100%;
+    }
+    .threelinebox>div {
+        height: 350px;
+    }
+    section#future,section#forward,section#Selling {
+        flex-wrap: wrap;
+    }
+    .maincontentbox{
+        padding: 25px 60px;
+    }
+    section{
+        padding: 0 15px !important;
+        margin: 50px 0 !important;
+    }
+    .bgfullsize{
+        padding: 0 !important;
+    }
+    #process{
+        padding: 30px !important;
+    }
+  }
+  @media(max-width:567px){
+    .maincontentbox {
+        padding: 25px 15px;
+    }
+    .threelinebox>div,.fourinlinebox>div,.threeinlinebox>div,.fiveinlineicon div{
+        flex: 0 100%;
+    }
+    section#process {
+        padding: 50px 15px !important;
+    }
+    /* footer */
+    footer .contactpage {
+        display: block;
+    }
+    footer .socials{
+        position: relative;
+        left: 0;
+        margin-top: 30px;
+        transform:translate(0)    ;
+        -webkit-transform:translate(0)    ;
+        -moz-transform:translate(0)    ;
+        -ms-transform:translate(0)    ;
+        -o-transform:translate(0)    ;
+    }
+    footer .getin,footer .location.relative {
+        margin-bottom: 32px;
+    }
+    section#survival .d-flex.aboutFuture,section#timing .d-flex.aboutFuture{
+        display: block;
+    }
+    .heading, .description {
+        width: 100%;
+        margin: 20px 0;
+    }
+    section#portfolio .estate-portfolio.p-50p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section#franchise .apparel {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    section#hires .fiveinlineicon {
+        padding: 30px 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    section#whyUs,.threelinebox>div,.threeinlinebox>div {
+        height: auto !important;
+    }
+    h2{
+        font-size: 26px !important;
+    }
   }
