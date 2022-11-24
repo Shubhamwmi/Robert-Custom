@@ -1,7 +1,4 @@
 
-#logostructure h3{
-    font-weight: 500;
-}
 #whyUs>.background>p{
     font-size: 120px;
     line-height: 135px;
@@ -38,7 +35,7 @@ section#whyUs:after {
 .content{
     z-index: 1;
 }
-#whyUs .content h6,#partners h6,.firstline h6{
+.firstline h6{
     color: var(--secondryColor);
     font-weight: 500;
 }
@@ -58,21 +55,17 @@ section#whyUs:after {
     overflow: hidden;
     object-fit: cover;
 }
-#future>div,#history>div,.description>div,#survival>div,#timing>div,section#forward>div,section#Selling>div{
+.textimage>div{
     flex: 0 50%;
 }
 .maincontentbox {
     padding: 0 60px;
 }
-#forward>.aboutFuture>h4{
-    color: var(--secondryColor);
-    font-weight: 500;
-}
 #process{
     background-color: var(--lightbg);
     padding: 50px 0;
 }
-#process .processHeading>h6{
+.processHeading>h6{
     font-weight: 400;
     color: var(--secondryColor);
 }
